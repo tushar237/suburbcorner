@@ -7,5 +7,6 @@ import com.suburb.coner.viewobj.UserVO;
 public interface UsersRepo {
 
 	public List<UserVO> getUsers();
+
 	public UserVO getUser(Integer id);
 }
